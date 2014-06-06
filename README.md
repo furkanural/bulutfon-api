@@ -6,6 +6,15 @@
 
 ## Doğrulama (=authentication)
 
+## Uygulama Kimliği (=user agent)
+
+Bütün istekler headerında `User-Agent` etkiketine sahip olmalıdır. Diğer türlü `400 Bad Request` hatası alırsınız. `User-Agent` bilgilerinizde uygulamanın adı ve iletişim adresiniz mutlaka olmalı.
+
+```
+User-Agent: Crm (http://lab2023.com/)
+User-Agent: Tayfun Erikan (tayfun.ozis.erikan@lab2023.com) 
+```
+
 ## Hataları İdare Etme (=handling errors) 
 
 Eğer Bulutfon'da bir hata olur ise, 5XX hata alırsınız. `5xx` hatası demek uygulamanın o an çöktüğü anlamına gelmesidir. Böyle durumlarda aynı isteği tekrar yapmak api ile geliştirme yapan programcının sorumluluğundadır.
