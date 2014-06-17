@@ -2,6 +2,10 @@
 
 **Rest** mimarisinde tasarlanmış Bulutfon API'si, serilizasyon için **JSON**, doğrulama için **OAuth 2** kullanır.
 
+## Önemli Not
+
+Bulutfon API'si henüz yapım aşamasındadır. Bu döküman API'nin standartlarını belirlemek amacı ile hazırlanmıştır.
+
 ## Request Yapmak
 
 ## Doğrulama (=authentication)
